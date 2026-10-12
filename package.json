@@ -1,0 +1,25 @@
+{
+  "name": "pi-flightdeck",
+  "version": "0.1.0",
+  "description": "Live agent dashboard extension for Pi",
+  "type": "module",
+  "keywords": ["pi-package", "pi-extension", "flightdeck"],
+  "license": "MIT",
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "pi": {
+    "extensions": ["./src/extension.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^1.1.0",
+    "@earendil-works/pi-tui": "^1.1.0",
+    "typescript": "^5.9.0"
+  }
+}
