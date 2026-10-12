@@ -70,7 +70,7 @@ Create `package.json` with:
   },
   "devDependencies": {
     "@earendil-works/pi-coding-agent": "^1.1.0",
-    "@earendil-works/pi-tui": "^0.1.0",
+    "@earendil-works/pi-tui": "^1.1.0",
     "typescript": "^5.9.0"
   }
 }
